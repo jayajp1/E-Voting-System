@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".UserqrActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/textvieww"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingLeft="25dp"
+        android:textSize="18dp"
+        android:gravity="center_vertical"
+        android:text="Generate QR code Page"
+        android:textColor="#ffff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittex">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:text="-Perform Follwing Steps if your are not able to Vote-"
+            android:textColor="#000"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:textSize="13dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="5dp"
+    android:text="1.Click on GENERATE QRCODE button to get your QRCode."
+    android:textColor="#000"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="13dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="2.Scan QRcode from another mobile"
+        android:textColor="#000"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="80sp"
+        android:background="@drawable/lbutton"
+        android:onClick="QRCodeButton"
+        android:text="Generate   Qr-code"
+        android:textColor="#ffff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/userqriv"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userqrtx"
+        app:srcCompat="?attr/actionBarDivider"
+        android:contentDescription="todo" />
+</LinearLayout>

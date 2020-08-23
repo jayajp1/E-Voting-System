@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1095245676275",
+    "firebase_url": "https://drsvotingapp.firebaseio.com",
+    "project_id": "drsvotingapp",
+    "storage_bucket": "drsvotingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095245676275:android:89bbcdb78ab81d93ba0186",
+        "android_client_info": {
+          "package_name": "com.example.drs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095245676275-vf7c06aovqrsb3oedc1vcjs7obbn64m1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.drs",
+            "certificate_hash": "2fdfc0b55d2f0489e89697c828ba58a95b959c4d"
+          }
+        },
+        {
+          "client_id": "1095245676275-ghoscn4vicjfrq9temte04p7f276h7qg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFC1YjCH7zBKVONp8xbfDoqypX3sK3sRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095245676275-ghoscn4vicjfrq9temte04p7f276h7qg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

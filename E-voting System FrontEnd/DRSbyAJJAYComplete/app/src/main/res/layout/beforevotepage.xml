@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.6"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="E Voting System"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/textviewlogo"
+            android:drawableLeft="@drawable/vote"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/aftervote"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="12">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/g_bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Voting will begin on 19/6/2019 and Timing is 7:00AM to 5:00PM."
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

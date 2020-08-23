@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:weightSum="14"
+    tools:context=".AdminSideBeforeVote">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20sp"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.4"
+            android:text="E Voting System"
+            android:textAlignment="center"
+            android:paddingLeft="5dp"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/textviewlogo"
+            android:drawableLeft="@drawable/vote"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1.8"
+            android:background="@drawable/textvieww"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="Voting Status"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/before_vote_message"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="5"
+            android:gravity="center_vertical"
+            android:hint="Select the Page Choice"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/aChoice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="0dp"
+            android:layout_weight="5"
+            android:background="@drawable/spinner"
+            android:entries="@array/Choice_Vote"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:textColorHint="#656D65"
+            android:textSize="25dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="50sp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/abtnchoice"
+            android:layout_width="match_parent"
+            android:layout_marginTop="0sp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:background="@drawable/lbutton"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+</LinearLayout>

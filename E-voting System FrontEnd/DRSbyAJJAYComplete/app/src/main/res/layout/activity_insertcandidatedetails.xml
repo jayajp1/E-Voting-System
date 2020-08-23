@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Insertcandidatedetails">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1"
+            android:text="E Voting System"
+            android:textAlignment="center"
+            android:paddingLeft="5dp"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/textviewlogo"
+            android:drawableLeft="@drawable/vote"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="2"
+                android:paddingLeft="10dp"
+                android:background="#9FAFAE"
+                android:text="Candidate registration Form"
+                android:textColor="#000"
+                android:clickable="false"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            android:background="@drawable/signupback"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:paddingLeft="10dp"
+                    android:text="Full Name : "
+                    android:textColor="#000"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/a_cd_fname"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="4"
+                    android:background="@drawable/regedittext"
+                    android:gravity="center"
+                    android:hint="Enter Full Name"
+                    android:textColor="#000"
+                    android:textColorHint="#656D65"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="Party Name : "
+                    android:textColor="#000"
+                    android:textSize="14dp" />
+                <Spinner
+                    android:id="@+id/a_cd_partyname"
+                    android:layout_width="0dp"
+                    android:layout_height="25sp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="4"
+                    android:background="@drawable/regedittext"
+                    android:gravity="center"
+                    android:hint="Enter city name"
+                    android:inputType="number"
+                    android:textColor="#000"
+                    android:textColorHint="#656D65"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:paddingLeft="10dp"
+                    android:text="Adharcard : "
+                    android:textColor="#000"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/a_cd_adharcard"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="4"
+                    android:background="@drawable/regedittext"
+                    android:gravity="center"
+                    android:hint="Enter Adharcard Number"
+                    android:inputType="number"
+                    android:textColor="#000"
+                    android:textColorHint="#656D65"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:paddingLeft="10dp"
+                    android:text="City : "
+                    android:textColor="#000"
+                    android:textSize="14dp" />
+
+                <Spinner
+                    android:id="@+id/a_cd_city"
+                    android:layout_width="0dp"
+                    android:layout_height="25sp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="4"
+                    android:background="@drawable/regedittext"
+                    android:gravity="center"
+                    android:hint="Enter city name"
+                    android:inputType="number"
+                    android:textColor="#000"
+                    android:textColorHint="#656D65"
+                    android:textSize="18dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="Profile Photo : "
+                    android:textColor="#000"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:id="@+id/a_cd_profle"
+                    android:layout_weight="3.8"
+                    android:background="@drawable/regedittext"
+                    android:layout_marginTop="10dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="Party Photo : "
+                    android:textColor="#000"
+                    android:textSize="14dp" />
+
+                <EditText
+                    android:id="@+id/a_cd_partypic"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="3.8"
+                    android:background="@drawable/regedittext" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp">
+
+            <Button
+                android:id="@+id/ad_cd_btn_addcan"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="20sp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple"
+                android:clickable="true"
+                android:text="Add candidate"
+                android:textColor="#ffff" />
+
+            <Button
+                android:id="@+id/ad_cd_btnreset"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="30sp"
+                android:layout_weight="1"
+                android:text="Reset"
+                android:background="@drawable/ripple"
+                android:textColor="#ffff" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

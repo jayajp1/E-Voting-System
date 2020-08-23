@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.drs">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name=".GlobalUser"
+        android:allowBackup="true"
+        android:icon="@mipmap/voteicons"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/voteicons"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".VoteResultActivity">
+
+        </activity>
+        <activity android:name=".resultcarditems"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Votedone" />
+        <activity android:name=".FAQs"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".AdminSideBeforeVote" />
+        <activity android:name=".Voteresult" />
+        <activity android:name=".adbarchart"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".adpiechart"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ChartChoice" />
+        <activity android:name=".Insertcandidatedetails"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AdminTaskActivity" />
+        <activity android:name=".UserqrActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".carditems" />
+        <activity android:name=".Feedback"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".ScanningActivity" />
+        <activity android:name=".RegistrationChoice" />
+        <activity android:name=".Signup3"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Signup2"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Detailed" />
+        <activity android:name=".Signup1"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Forgotpassword"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".loginpage" />
+        <activity
+            android:name=".loginpage"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name=".AlarmReceiver">
+            <intent-filter>
+                <action android:name="jay.aj.drs.DISPLAY_NOTIFICATION" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

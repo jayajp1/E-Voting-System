@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".VoteResultActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:text="E Voting System"
+        android:textAlignment="center"
+        android:paddingLeft="5dp"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/textviewlogo"
+        android:drawableLeft="@drawable/vote"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:fontFamily="@font/g_bold"
+        android:text="Result of 2020 Election"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="30dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10sp"
+        android:layout_weight="14"
+        android:id="@+id/voteresultrec"/>
+
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="13"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.2"
+            android:text="E Voting System"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/textviewlogo"
+            android:drawableLeft="@drawable/vote"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/user"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="name"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:weightSum="6"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnusgenerateqr"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1"
+            android:background="@drawable/rippleuser"
+            android:clickable="true"
+            android:drawableRight="@drawable/qrcodde"
+            android:paddingLeft="20dp"
+            android:paddingRight="15dp"
+            android:text="User QRcode"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/btnhelp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1"
+            android:background="@drawable/rippleuser"
+            android:clickable="true"
+            android:drawableRight="@drawable/help"
+            android:paddingLeft="20dp"
+            android:paddingRight="15dp"
+            android:text="FAQs"
+            android:textAlignment="textStart"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnfeedback"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.1"
+            android:text="feedback"
+            android:textAlignment="textStart"
+            android:paddingLeft="20dp"
+            android:paddingRight="15dp"
+            android:clickable="true"
+            android:drawableRight="@drawable/feedback"
+            android:background="@drawable/rippleuser"/>
+
+        <Button
+            android:id="@+id/btnuserlogout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:text="Logout"
+            android:textAlignment="textStart"
+            android:paddingLeft="20dp"
+            android:clickable="true"
+            android:paddingRight="15dp"
+            android:drawableRight="@drawable/logout"
+            android:background="@drawable/usersettingeffect"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+

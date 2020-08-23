@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".FAQs">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="50sp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/textvieww"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="FAQs"
+            android:textColor="#fff"
+            android:textSize="24dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:text="1.What is Decentralized Referendum System (DRS)?"
+            android:textAlignment="viewStart"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18dp"
+            android:paddingRight="5dp"
+            android:text="DRS is an online voting system in which an individual can cast his/her vote at ease through mobile
+ application in fully secured manner using biometric verification and QR scan."
+            android:textAlignment="viewStart"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:text="2.What are the requirements of DRS?"
+            android:textAlignment="viewStart"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18dp"
+            android:paddingRight="5dp"
+            android:text="Any android smartphone with fingerprint scanner and camera."
+            android:textAlignment="viewStart"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:text="3.Are the user details safe when logging in this application?"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18dp"
+            android:paddingRight="5dp"
+            android:text="Login and Sign up credentials are stored in database using OTP verification and block chain concept, so they are safe."
+            android:textAlignment="viewStart"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:textSize="15dp"
+            android:paddingRight="5dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="4.Voting can be done at any time or not?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18dp"
+            android:paddingRight="5dp"
+            android:text="No, voting can only be done on specific date and during specified time interval only as set by the administration"
+            android:textAlignment="viewStart"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:textSize="15dp"
+            android:paddingRight="5dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="5.How to use this application?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18dp"
+            android:paddingRight="5dp"
+            android:text="A short video tutorial is attached for assistance in using this application and even after this some query is there, so it can be submitted to the email and that individual would be contacted for the issue."
+            android:textAlignment="viewStart"
+            android:textSize="15dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/play"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#6E797C"
+                android:capitalize="none"
+                android:gravity="center"
+                android:onClick="onplay"
+                android:text="Watch Video"
+                android:textAllCaps="false"
+                android:textColor="#000"></Button>
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="120dp"
+                android:visibility="invisible"
+                android:layout_marginRight="20dp" />
+        </RelativeLayout>
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>

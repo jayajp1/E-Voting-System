@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationChoice"
+    android:weightSum="3"
+    android:orientation="vertical"
+    android:layout_marginTop="220sp"
+    android:layout_marginBottom="150sp">
+
+    <Button
+        android:id="@+id/brvoter"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="50sp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="Voter"
+        android:clickable="true"
+        android:background="@drawable/ripple"
+        android:textColor="#ffff" />
+
+
+        <Button
+            android:id="@+id/bradmin"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30sp"
+            android:layout_marginBottom="50sp"
+            android:layout_marginRight="30sp"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="Admin"
+            android:clickable="true"
+            android:background="@drawable/ripple"
+            android:textColor="#ffff" />
+
+
+</LinearLayout>

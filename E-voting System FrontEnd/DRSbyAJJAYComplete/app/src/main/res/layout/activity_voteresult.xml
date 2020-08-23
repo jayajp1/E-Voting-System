@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="9"
+    tools:context=".Voteresult">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="E Voting System"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/textviewlogo"
+            android:drawableLeft="@drawable/vote"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:fontFamily="@font/g_bold"
+        android:text="Result of 2020 Election"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="30dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/aftervote"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="5"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="8">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.8"
+                    android:orientation="vertical"
+                    android:weightSum="4">
+
+                    <ImageView
+                        android:id="@+id/vrimg1"
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="2.5"
+                        android:background="@drawable/candidate1" />
+
+                    <TextView
+                        android:id="@+id/win_Candidate_name1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.2"
+                        android:gravity="center"
+                        android:text="RANJANBEN BHATT"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.2"
+                    android:orientation="vertical"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:id="@+id/vtddcv1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.8"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                    <ImageView
+                        android:id="@+id/vrimg2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.6"
+                        android:src="@drawable/bjp" />
+
+                    <TextView
+                        android:id="@+id/win_party_name1"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Bhartiya Janta Party"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.8"
+                    android:weightSum="10"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="2.5"
+                        android:fontFamily="@font/g_bold"
+                        android:gravity="center"
+                        android:text="Total Votes"
+                        android:textSize="11dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".1"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="#000"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/votecounnt1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/g_bold"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textSize="26dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/aftervote"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="5"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="8">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.8"
+                    android:orientation="vertical"
+                    android:weightSum="4">
+
+                    <ImageView
+                        android:id="@+id/vrimg11"
+                        android:layout_width="55dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="2.5"
+                        android:background="@drawable/candidate2" />
+
+                    <TextView
+                        android:id="@+id/win_Candidate_name2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.2"
+                        android:gravity="center"
+                        android:text="PRASHANT PATEL (TIKO)"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.2"
+                    android:orientation="vertical"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:id="@+id/vtddcv11"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.8"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                    <ImageView
+                        android:id="@+id/vimgview2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.6"
+                        android:src="@drawable/congress" />
+
+                    <TextView
+                        android:id="@+id/win_party_name2"
+                        android:layout_width="match_parent"
+                        android:layout_height="27dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Congress"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.8"
+                    android:weightSum="10"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2.6"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Total Votes"
+                        android:textSize="11dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".1"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="#000"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/votecounnt2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/g_bold"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textSize="26dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

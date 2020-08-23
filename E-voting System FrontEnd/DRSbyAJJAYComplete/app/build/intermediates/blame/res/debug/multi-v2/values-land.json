@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\JAY\\AndroidStudioProjects\\DRS final\\DRSbyAJJAY\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\JAY\\.gradle\\caches\\transforms-2\\files-2.1\\3f2791d3ecf41ed9e54a91eddcfa2ad3\\material-1.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "412",
+                        "endLines": "10",
+                        "endColumns": "10",
+                        "endOffsets": "579"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\JAY\\.gradle\\caches\\transforms-2\\files-2.1\\539cd1dcb13da495d620ef5e571f5609\\jetified-firebase-inappmessaging-display-17.0.4\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,131",
+                        "endColumns": "75,71",
+                        "endOffsets": "126,198"
+                    },
+                    "to": {
+                        "startLines": "5,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "264,340",
+                        "endColumns": "75,71",
+                        "endOffsets": "335,407"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\JAY\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                }
+            ]
+        }
+    ]
+}

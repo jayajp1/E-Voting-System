@@ -1,0 +1,409 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.drs"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.SEND_SMS" />
+13-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.READ_SMS" />
+14-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:8:5-67
+14-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+15-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:9:5-70
+15-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:9:22-67
+16
+17    <uses-feature android:name="android.hardware.camera" />
+17-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:11:5-60
+17-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:11:19-57
+18
+19    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+19-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:13:5-72
+19-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:13:22-69
+20
+21    <uses-feature android:name="android.hardware.camera.autofocus" />
+21-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:15:5-70
+21-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:15:19-67
+22
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.firebase:firebase-inappmessaging-display:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\539cd1dcb13da495d620ef5e571f5609\jetified-firebase-inappmessaging-display-17.0.4\AndroidManifest.xml:11:5-79
+23-->[com.google.firebase:firebase-inappmessaging-display:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\539cd1dcb13da495d620ef5e571f5609\jetified-firebase-inappmessaging-display-17.0.4\AndroidManifest.xml:11:22-76
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\b2124bffae8ef7b49cda26c670120956\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:24:5-68
+24-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\b2124bffae8ef7b49cda26c670120956\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:24:22-65
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+25-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:26:5-110
+25-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:26:22-107
+26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+26-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:26:5-82
+26-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:26:22-79
+27
+28    <application
+28-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:17:5-85:19
+29        android:name="com.example.drs.GlobalUser"
+29-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:18:9-35
+30        android:allowBackup="true"
+30-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:19:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.1.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\331630a23dfa1f0594bcf54d5352aa36\core-1.1.0\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/voteicons"
+33-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:20:9-41
+34        android:label="@string/app_name"
+34-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:21:9-41
+35        android:roundIcon="@mipmap/voteicons"
+35-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:22:9-46
+36        android:screenOrientation="portrait"
+36-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:23:9-45
+37        android:supportsRtl="true"
+37-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:24:9-35
+38        android:theme="@style/AppTheme"
+38-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:25:9-40
+39        android:usesCleartextTraffic="true" >
+39-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:26:9-44
+40        <activity android:name="com.example.drs.VoteResultActivity" >
+40-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:27:9-29:20
+40-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:27:19-53
+41        </activity>
+42        <activity
+42-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:30:9-31:51
+43            android:name="com.example.drs.resultcarditems"
+43-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:30:19-50
+44            android:screenOrientation="portrait" />
+44-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:31:13-49
+45        <activity android:name="com.example.drs.Votedone" />
+45-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:32:9-46
+45-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:32:19-43
+46        <activity
+46-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:33:9-35:20
+47            android:name="com.example.drs.FAQs"
+47-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:33:19-39
+48            android:screenOrientation="portrait" >
+48-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:34:13-49
+49        </activity>
+50        <activity android:name="com.example.drs.AdminSideBeforeVote" />
+50-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:36:9-57
+50-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:36:19-54
+51        <activity android:name="com.example.drs.Voteresult" />
+51-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:37:9-48
+51-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:37:19-45
+52        <activity
+52-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:38:9-39:51
+53            android:name="com.example.drs.adbarchart"
+53-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:38:19-45
+54            android:screenOrientation="portrait" />
+54-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:39:13-49
+55        <activity
+55-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:40:9-41:51
+56            android:name="com.example.drs.adpiechart"
+56-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:40:19-45
+57            android:screenOrientation="portrait" />
+57-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:41:13-49
+58        <activity android:name="com.example.drs.ChartChoice" />
+58-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:42:9-49
+58-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:42:19-46
+59        <activity
+59-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:43:9-44:51
+60            android:name="com.example.drs.Insertcandidatedetails"
+60-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:43:19-57
+61            android:screenOrientation="portrait" />
+61-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:44:13-49
+62        <activity android:name="com.example.drs.AdminTaskActivity" />
+62-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:45:9-55
+62-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:45:19-52
+63        <activity android:name="com.example.drs.UserqrActivity" />
+63-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:46:9-52
+63-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:46:19-49
+64        <activity android:name="com.example.drs.NotificationActivity" />
+64-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:47:9-58
+64-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:47:19-55
+65        <activity android:name="com.example.drs.carditems" />
+65-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:48:9-47
+65-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:48:19-44
+66        <activity
+66-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:49:9-52:20
+67            android:name="com.example.drs.Feedback"
+67-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:49:19-43
+68            android:screenOrientation="portrait" >
+68-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:50:13-49
+69        </activity>
+70        <activity android:name="com.example.drs.ScanningActivity" />
+70-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:53:9-54
+70-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:53:19-51
+71        <activity android:name="com.example.drs.RegistrationChoice" />
+71-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:54:9-56
+71-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:54:19-53
+72        <activity
+72-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:55:9-56:51
+73            android:name="com.example.drs.Signup3"
+73-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:55:19-42
+74            android:screenOrientation="portrait" />
+74-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:56:13-49
+75        <activity
+75-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:57:9-58:51
+76            android:name="com.example.drs.Signup2"
+76-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:57:19-42
+77            android:screenOrientation="portrait" />
+77-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:58:13-49
+78        <activity android:name="com.example.drs.Detailed" />
+78-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:59:9-46
+78-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:59:19-43
+79        <activity
+79-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:60:9-61:51
+80            android:name="com.example.drs.Signup1"
+80-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:60:19-42
+81            android:screenOrientation="portrait" />
+81-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:61:13-49
+82        <activity
+82-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:62:9-65:55
+83            android:name="com.example.drs.Forgotpassword"
+83-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:63:13-43
+84            android:parentActivityName="com.example.drs.loginpage"
+84-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:65:13-52
+85            android:screenOrientation="portrait" />
+85-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:64:13-49
+86        <activity
+86-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:66:9-68:52
+87            android:name="com.example.drs.loginpage"
+87-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:67:13-38
+88            android:screenOrientation="portrait" />
+88-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:68:13-49
+89
+90        <receiver android:name="com.example.drs.AlarmReceiver" >
+90-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:70:9-74:20
+90-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:70:19-48
+91            <intent-filter>
+91-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:71:13-73:29
+92                <action android:name="jay.aj.drs.DISPLAY_NOTIFICATION" />
+92-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:72:17-74
+92-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:72:25-71
+93            </intent-filter>
+94        </receiver>
+95
+96        <activity android:name="com.example.drs.Splashscreen" >
+96-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:76:9-81:20
+96-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:76:19-47
+97            <intent-filter>
+97-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:77:13-80:29
+98                <action android:name="android.intent.action.MAIN" />
+98-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:78:17-69
+98-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:78:25-66
+99
+100                <category android:name="android.intent.category.LAUNCHER" />
+100-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:79:17-77
+100-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:79:27-74
+101            </intent-filter>
+102        </activity>
+103        <activity
+103-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:82:9-84:52
+104            android:name="com.example.drs.MainActivity"
+104-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:83:13-41
+105            android:screenOrientation="portrait" />
+105-->C:\Users\JAY\AndroidStudioProjects\DRS final Complete\DRSbyAJJAYComplete\app\src\main\AndroidManifest.xml:84:13-49
+106
+107        <service
+107-->[com.google.firebase:firebase-inappmessaging-display:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\539cd1dcb13da495d620ef5e571f5609\jetified-firebase-inappmessaging-display-17.0.4\AndroidManifest.xml:15:9-19:19
+108            android:name="com.google.firebase.components.ComponentDiscoveryService"
+108-->[com.google.firebase:firebase-inappmessaging-display:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\539cd1dcb13da495d620ef5e571f5609\jetified-firebase-inappmessaging-display-17.0.4\AndroidManifest.xml:15:18-89
+109            android:directBootAware="true"
+109-->[com.google.firebase:firebase-common:19.3.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\126fae210e833bfca62a96014750368e\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+110            android:exported="false" >
+110-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+111            <meta-data
+111-->[com.google.firebase:firebase-inappmessaging-display:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\539cd1dcb13da495d620ef5e571f5609\jetified-firebase-inappmessaging-display-17.0.4\AndroidManifest.xml:16:13-18:85
+112                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
+112-->[com.google.firebase:firebase-inappmessaging-display:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\539cd1dcb13da495d620ef5e571f5609\jetified-firebase-inappmessaging-display-17.0.4\AndroidManifest.xml:17:17-144
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-inappmessaging-display:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\539cd1dcb13da495d620ef5e571f5609\jetified-firebase-inappmessaging-display-17.0.4\AndroidManifest.xml:18:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+115                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+115-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-inappmessaging:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\ff956ea87a5e4512fd5a744fe15073fb\jetified-firebase-inappmessaging-17.0.4\AndroidManifest.xml:15:13-17:85
+118                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+118-->[com.google.firebase:firebase-inappmessaging:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\ff956ea87a5e4512fd5a744fe15073fb\jetified-firebase-inappmessaging-17.0.4\AndroidManifest.xml:16:17-129
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-inappmessaging:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\ff956ea87a5e4512fd5a744fe15073fb\jetified-firebase-inappmessaging-17.0.4\AndroidManifest.xml:17:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\b2124bffae8ef7b49cda26c670120956\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:28:13-30:85
+121                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+121-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\b2124bffae8ef7b49cda26c670120956\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:29:17-139
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\b2124bffae8ef7b49cda26c670120956\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:30:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:32:13-34:85
+124                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+124-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:33:17-96
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:34:17-82
+126        </service>
+127        <!--
+128             FirebaseMessagingService performs security checks at runtime,
+129             no need for explicit permissions despite exported="true"
+130        -->
+131        <service
+131-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\8c4ff005eb3b379c09b2dbb2a8db8b79\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:28:9-34:19
+132            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+132-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\8c4ff005eb3b379c09b2dbb2a8db8b79\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:29:13-82
+133            android:exported="true" >
+133-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\8c4ff005eb3b379c09b2dbb2a8db8b79\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:30:13-36
+134            <intent-filter android:priority="-500" >
+134-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\8c4ff005eb3b379c09b2dbb2a8db8b79\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:31:13-33:29
+134-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\8c4ff005eb3b379c09b2dbb2a8db8b79\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:31:28-51
+135                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+135-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\8c4ff005eb3b379c09b2dbb2a8db8b79\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:32:17-78
+135-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\8c4ff005eb3b379c09b2dbb2a8db8b79\jetified-firebase-messaging-17.3.4\AndroidManifest.xml:32:25-75
+136            </intent-filter>
+137        </service>
+138
+139        <activity
+139-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+140            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+140-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+141            android:excludeFromRecents="true"
+141-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+142            android:exported="true"
+142-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+143            android:launchMode="singleTask"
+143-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+144            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+144-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+145            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+145-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\1569b356ae21c59997606b87853bf436\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+146
+147        <receiver
+147-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:29:9-33:20
+148            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+148-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:30:13-85
+149            android:enabled="true"
+149-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:31:13-35
+150            android:exported="false" >
+150-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:32:13-37
+151        </receiver>
+152        <receiver
+152-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:34:9-42:20
+153            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+153-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:35:13-100
+154            android:enabled="true"
+154-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:36:13-35
+155            android:exported="true"
+155-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:37:13-36
+156            android:permission="android.permission.INSTALL_PACKAGES" >
+156-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:38:13-69
+157            <intent-filter>
+157-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:39:13-41:29
+158                <action android:name="com.android.vending.INSTALL_REFERRER" />
+158-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:40:17-79
+158-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:40:25-76
+159            </intent-filter>
+160        </receiver>
+161
+162        <service
+162-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:44:9-47:40
+163            android:name="com.google.android.gms.measurement.AppMeasurementService"
+163-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:45:13-84
+164            android:enabled="true"
+164-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:46:13-35
+165            android:exported="false" />
+165-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:47:13-37
+166        <service
+166-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:48:9-52:72
+167            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+167-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:49:13-87
+168            android:enabled="true"
+168-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:50:13-35
+169            android:exported="false"
+169-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:51:13-37
+170            android:permission="android.permission.BIND_JOB_SERVICE" />
+170-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\9cc566697254fa9e3393638982c2d415\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:52:13-69
+171
+172        <receiver
+172-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:37:9-44:20
+173            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+173-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:38:13-78
+174            android:exported="true"
+174-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:39:13-36
+175            android:permission="com.google.android.c2dm.permission.SEND" >
+175-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:40:13-73
+176            <intent-filter>
+176-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:41:13-43:29
+177                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+177-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:42:17-81
+177-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:42:25-78
+178            </intent-filter>
+179        </receiver>
+180        <!--
+181             FirebaseInstanceIdService performs security checks at runtime,
+182             no need for explicit permissions despite exported="true"
+183        -->
+184        <service
+184-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:50:9-56:19
+185            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+185-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:51:13-77
+186            android:exported="true" >
+186-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:52:13-36
+187            <intent-filter android:priority="-500" >
+187-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:53:13-55:29
+187-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:53:28-51
+188                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+188-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:54:17-80
+188-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12599bd8af8327d2c094626458ee34e3\jetified-firebase-iid-17.0.4\AndroidManifest.xml:54:25-77
+189            </intent-filter>
+190        </service>
+191
+192        <provider
+192-->[com.google.firebase:firebase-common:19.3.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\126fae210e833bfca62a96014750368e\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+193            android:name="com.google.firebase.provider.FirebaseInitProvider"
+193-->[com.google.firebase:firebase-common:19.3.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\126fae210e833bfca62a96014750368e\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+194            android:authorities="com.example.drs.firebaseinitprovider"
+194-->[com.google.firebase:firebase-common:19.3.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\126fae210e833bfca62a96014750368e\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+195            android:exported="false"
+195-->[com.google.firebase:firebase-common:19.3.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\126fae210e833bfca62a96014750368e\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+196            android:initOrder="100" />
+196-->[com.google.firebase:firebase-common:19.3.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\126fae210e833bfca62a96014750368e\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+197
+198        <activity
+198-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+199            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+199-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+200            android:exported="false"
+200-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+201            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+201-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+202
+203        <meta-data
+203-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\1e578b43330dcd7aeefcb93bf5ee6ad5\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+204            android:name="com.google.android.gms.version"
+204-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\1e578b43330dcd7aeefcb93bf5ee6ad5\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+205            android:value="@integer/google_play_services_version" />
+205-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\1e578b43330dcd7aeefcb93bf5ee6ad5\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+206
+207        <provider
+207-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+208            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+208-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+209            android:authorities="com.example.drs.lifecycle-process"
+209-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+210            android:exported="false"
+210-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+211            android:multiprocess="true" />
+211-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\JAY\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+212    </application>
+213
+214</manifest>

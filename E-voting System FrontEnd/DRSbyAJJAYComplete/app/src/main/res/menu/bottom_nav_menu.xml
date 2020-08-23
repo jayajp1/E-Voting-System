@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/homes"
+        android:title="Home"/>
+
+
+    <item
+        android:id="@+id/nav_news"
+        android:icon="@drawable/newss"
+        android:title="News" />
+    <item
+        android:id="@+id/nav_vote"
+        android:icon="@drawable/vvote"
+        android:title="Vote"/>
+
+
+    <item
+        android:id="@+id/nav_qrscan"
+        android:icon="@drawable/qrcodeee"
+        android:title="Sccaner"
+        />
+
+    <item
+        android:id="@+id/nav_User"
+        android:icon="@drawable/male"
+        android:title="User"/>
+</menu>

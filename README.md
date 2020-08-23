@@ -1,5 +1,5 @@
 # E-Voting-System(DRS)
-In This Project, We (Jay Limbachiya,Harsh Patel,Geubind Kewalramani) are developed E-voting System.
+In This Project, We (Jay Limbachiya,Harsh Patel,Geubind Kewalramani,Preyas Soni) are developed E-voting System.
 For Front End ,We are used Android studio.
 For Backend, We are used Java(Intellij)
 For Database we are used MSSql(Wamp server)
